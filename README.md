@@ -35,7 +35,7 @@ The SAM website boasts several key features designed to enhance the user experie
 
 ## Getting Started
 
-To get started with SAM, you can visit the live website at [www.sam-ai-mentor.com](https://www.sam-ai-mentor.com). Additionally, if you are interested in contributing to the development of SAM, please refer to the [Contributing](#contributing) section for more information.
+To get started with SAM, you can visit the live website at [link website]. Additionally, if you are interested in contributing to the development of SAM, please refer to the [Contributing](#contributing) section for more information.
 
 ## Technologies Used
 
