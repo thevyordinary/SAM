@@ -1,0 +1,40 @@
+# AI-Based Learning Assistant for Vietnamese High School Students
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Motivation](#motivation)
+- [Features](#features)
+- [Landscape](#landscape)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [License](#license)
+
+## Overview
+
+This project aims to develop a cutting-edge technology using artificial intelligence (AI) to assist Vietnamese high school students in solving compulsory subjects like Math and Physics. The application will allow students to scan, input, or vocalize questions, providing accurate and quick answers along with detailed justifications.
+
+## Motivation
+
+Our inspiration for this project comes from our own high school experiences, where we identified the limitations of current AI-based learning tools like QANDA, Dicamon, and PhotoMath. We aim to provide flexibility in question input and improve accuracy by leveraging modern IT trends and integrating AI-assistant features. Our solution will offer personalized solutions based on user strengths, preferences, and potential areas for improvement.
+
+## Features
+
+- Scanning and input of questions for various subjects.
+- Voice input for question submission.
+- AI-powered responses with detailed justifications.
+- Assistance with foreign language subjects.
+- Intelligent recommendations based on user profiles.
+- User-friendly interface.
+
+## Landscape
+
+Several significant rivals in the AI-based learning domain include:
+- [QANDA](https://qanda.ai/vi) by Mathpresso Inc.
+- [Dicamon](https://dicamon.vn)
+- [PhotoMath](https://photomath.com/en)
+
+We acknowledge the popularity of AI-based learning tools due to advancements in artificial intelligence. Our main objective is to create an AI assistant specifically tailored for Vietnamese high school students, focusing on grades 10, 11, and 12. The project aims to stand out by offering a thorough and sophisticated AI-based learning experience with a logical and imaginative virtual assistant.
+
+## Repository Structure
+
