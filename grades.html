@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  #header{
+    width: 100%;
+    height: 100vh;
+  }
+  #header {
+    background-color: #f9f9f9;
+    color: aliceblue;
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  #menu {
+  list-style: none;
+  display: flex;
+}
+
+#menu .item {
+  margin: 0px 25px;
+  font-size: 20px;
+  margin-right: 70px;
+}
+
+#menu .item a {
+  color: #6d6d74;
+  text-decoration: none;
+  transition: 1s;
+}
+#menu .item a:hover {
+  color: #0b0b0b;
+  
+}
+#header .Logo {
+  padding-bottom: 10px;
+  padding-left: 70px;
+}
+.gr{
+    background-color:rgb(126, 174, 208);
+    width:100%;
+    height:100vh
+}
+.gr h1 {
+    margin-left: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    padding-top:70px;
+    padding-bottom:40px;}
+#grades {
+    width:650px;
+    height: 45px;
+    font-size:20px;
+    margin-left: 250px;
+
+}
+.gr .submit {
+    flex-flow:column;
+    display:flex;
+    margin-left: 250px;
+    margin-top: 50px;
+    width:150px;
+    height:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    padding-left: 45px;
+    padding-top:5px;
+    border-radius: 15px;
+    background-color:#0b0b0b;
+    color:#f9f9f9;
+    transition:0.8s;
+    cursor:pointer;
+}
+.gr .submit:hover{
+    background-color:#f9f9f9;
+    color:#0b0b0b;
+}
+
+    
+</style>
+<body>
+    <header id="header">
+        <div class="Logo">
+            <a href="">
+               <img src="https://tse4.mm.bing.net/th?id=OIP.1Y5uzcPCmOF8fVlPSJsjuQHaCK&pid=Api&P=0&h=180"width="190px" height="50px" alt=""/>
+            </a>
+        </div>
+        <div id="menu">
+            <div class="item">
+                <a href="project1.html">Home</a>
+            </div>
+            <div class="item">
+                <a href="aboutsam.html">About SAM</a>
+            </div>
+            <div class="item">
+                <a href="grades.html">Grades</a>
+            </div>
+            <div class="item">
+                <a href="download.html">Download</a>
+            </div>
+            <div class="item">
+                <a href="login.html">Account</a>
+            </div>
+   </header>
+   
+        <div class="gr">
+            <h1>Choose your Subject</h1>
+            <label for="grades"></label>
+            <select name="grades" id="grades">
+                <optgroup label="Grade 10">
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Literature">Literature</option>
+                    <option value="Foreign language">Foreign language</option>
+                    <option value="History">History</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Civic Education">Civic Education</option>
+                    <option value="Fine Art">Fine Art</option>
+                    <option value="Informatics">Informatics</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Music">Music</option>
+                    <option value="Physical Education">Physical Education</option>
+                </optgroup>
+                <optgroup label="Grade 11">
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Literature">Literature</option>
+                    <option value="Foreign language">Foreign language</option>
+                    <option value="History">History</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Civic Education">Civic Education</option>
+                    <option value="Fine Art">Fine Art</option>
+                    <option value="Informatics">Informatics</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Music">Music</option>
+                    <option value="Physical Education">Physical Education</option>
+                </optgroup>
+                <optgroup label="Grade 12">
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Literature">Literature</option>
+                    <option value="Foreign language">Foreign language</option>
+                    <option value="History">History</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Civic Education">Civic Education</option>
+                    <option value="Informatics">Informatics</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Physical Education">Physical Education</option>
+                </optgroup>
+            </select>
+            <button class="submit">
+                submit
+            </button>
+        </div>
+  
+</body>
+</html>
