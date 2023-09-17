@@ -44,7 +44,6 @@ SAM is built using a variety of technologies to ensure a smooth user experience:
 - Front-end: HTML5, CSS3, JavaScript
 - Back-end: Node.js, Express.js
 - Database: MongoDB
-- AI Integration: ChatGPT (OpenAI)
 - Web Hosting: AWS (Amazon Web Services)
 
 ## Contributing
